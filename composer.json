@@ -1,0 +1,30 @@
+{
+    "name": "diatechnis/vellum-twig",
+    "description": "Code for using Twig with Vellum.",
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Michael Kelly",
+          "email": "puritandesigns@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "roave/security-advisories": "dev-master",
+        "twig/twig": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vellum\\": "src/VellumTwig/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/Tests/"
+        }
+    }
+}
