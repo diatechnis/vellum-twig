@@ -12,6 +12,7 @@
     "require": {
         "php": "^7.2",
         "roave/security-advisories": "dev-master",
+        "diatechnis/vellum": "^0.1-alpha",
         "twig/twig": "^2.0"
     },
     "require-dev": {
@@ -19,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vellum\\": "src/VellumTwig/"
+            "VellumTwig\\": "src/VellumTwig/"
         }
     },
     "autoload-dev": {
