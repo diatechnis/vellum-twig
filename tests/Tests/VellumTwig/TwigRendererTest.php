@@ -12,7 +12,6 @@ use Twig\Loader\ChainLoader;
 use Twig\Loader\FilesystemLoader;
 use Vellum\Path\SimpleClassPathResolver;
 use Vellum\Path\SimpleTemplatePathResolver;
-use VellumTwig\TwigRenderer;
 use PHPUnit\Framework\TestCase;
 use VellumTwig\VellumTwigExtension;
 

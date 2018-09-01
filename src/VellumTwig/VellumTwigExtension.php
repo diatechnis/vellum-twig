@@ -29,7 +29,7 @@ class VellumTwigExtension extends \Twig\Extension\AbstractExtension
 
         $options = ['is_safe' => ['html']];
 
-        foreach (['component', 'widget', 'section'] as $item) {
+        foreach (['component', 'widget', 'section', 'layout'] as $item) {
             $component_closure = $this->getComponentClosure($item);
 
             $functions[] = new \Twig\TwigFunction(
