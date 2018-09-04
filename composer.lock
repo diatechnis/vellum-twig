@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0aedd64aff7332a771de4e16fffdcabc",
+    "content-hash": "18b927f04a1c0c84850245c6ecaa34c2",
     "packages": [
         {
             "name": "adbario/php-dot-notation",
@@ -56,16 +56,16 @@
         },
         {
             "name": "diatechnis/vellum",
-            "version": "v0.2-alpha",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/diatechnis/vellum.git",
-                "reference": "503a7b1b0a6b722fb91d2ecfc6ac46ab07c215f0"
+                "reference": "35f32aa252065116eff654a468efff7d8cb78abb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/diatechnis/vellum/zipball/503a7b1b0a6b722fb91d2ecfc6ac46ab07c215f0",
-                "reference": "503a7b1b0a6b722fb91d2ecfc6ac46ab07c215f0",
+                "url": "https://api.github.com/repos/diatechnis/vellum/zipball/35f32aa252065116eff654a468efff7d8cb78abb",
+                "reference": "35f32aa252065116eff654a468efff7d8cb78abb",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +93,7 @@
                 }
             ],
             "description": "A site building library based loosely on atomic design principles.",
-            "time": "2018-09-01T14:26:39+00:00"
+            "time": "2018-09-04T16:49:58+00:00"
         },
         {
             "name": "roave/security-advisories",
@@ -1123,16 +1123,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.3.2",
+            "version": "7.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "34705f81bddc3f505b9599a2ef96e2b4315ba9b8"
+                "reference": "1bd5629cccfb2c0a9ef5474b4ff772349e1ec898"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/34705f81bddc3f505b9599a2ef96e2b4315ba9b8",
-                "reference": "34705f81bddc3f505b9599a2ef96e2b4315ba9b8",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1bd5629cccfb2c0a9ef5474b4ff772349e1ec898",
+                "reference": "1bd5629cccfb2c0a9ef5474b4ff772349e1ec898",
                 "shasum": ""
             },
             "require": {
@@ -1203,7 +1203,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-08-22T06:39:21+00:00"
+            "time": "2018-09-01T15:49:55+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -1863,7 +1863,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "roave/security-advisories": 20,
-        "diatechnis/vellum": 15
+        "diatechnis/vellum": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

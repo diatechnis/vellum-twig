@@ -24,7 +24,10 @@ class TwigRenderer implements \Vellum\Contracts\Renderers\RenderInterface
     {
         $arguments = $component->getArguments();
 
-        $template_path = $this->template_path_resolver->resolve($component);
+        $template_path = $this->template_path_resolver->resolve(
+            $component,
+            false
+        );
 
         return $this->twig->render($template_path, [
             'arguments' => $arguments
