@@ -44,6 +44,7 @@ class VellumTwigExtension extends \Twig\Extension\AbstractExtension
 
     private function getComponentClosure(string $component_type): \Closure
     {
+        //TODO Add the ability to render twig files without a component class?
         $resolve = $this->class_resolver;
         $render = $this->renderer;
 
