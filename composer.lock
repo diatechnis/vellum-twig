@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d20a0a51cc97da2bbb0b7143629ff04",
+    "content-hash": "e1d9adceb217963c68b1833e77ca1dd7",
     "packages": [
         {
             "name": "adbario/php-dot-notation",
@@ -56,16 +56,16 @@
         },
         {
             "name": "diatechnis/vellum",
-            "version": "dev-master",
+            "version": "v0.3-alpha",
             "source": {
                 "type": "git",
                 "url": "https://github.com/diatechnis/vellum.git",
-                "reference": "35f32aa252065116eff654a468efff7d8cb78abb"
+                "reference": "c3bddf59fcb0ff61802b3dee209291c1eb97b683"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/diatechnis/vellum/zipball/35f32aa252065116eff654a468efff7d8cb78abb",
-                "reference": "35f32aa252065116eff654a468efff7d8cb78abb",
+                "url": "https://api.github.com/repos/diatechnis/vellum/zipball/c3bddf59fcb0ff61802b3dee209291c1eb97b683",
+                "reference": "c3bddf59fcb0ff61802b3dee209291c1eb97b683",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +93,7 @@
                 }
             ],
             "description": "A site building library based loosely on atomic design principles.",
-            "time": "2018-09-04T16:49:58+00:00"
+            "time": "2019-03-03T18:23:56+00:00"
         },
         {
             "name": "roave/security-advisories",
@@ -1879,7 +1879,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "roave/security-advisories": 20,
-        "diatechnis/vellum": 20
+        "diatechnis/vellum": 15
     },
     "prefer-stable": false,
     "prefer-lowest": false,
