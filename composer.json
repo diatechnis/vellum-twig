@@ -13,7 +13,7 @@
     "require": {
         "php": "^7.2",
         "roave/security-advisories": "dev-master",
-        "diatechnis/vellum": "^0.5",
+        "diatechnis/vellum": "^0.6.0",
         "twig/twig": "^2.0.0"
     },
     "require-dev": {
